@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RNG Guessing Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="test">Guessing Game!</h1>
+      <p id="GuessResults">Guess a number between 1 and 100!</p>
+      <input
+        type="number"
+        id="numberInput"
+        max="100"
+        min="1"
+        placeholder="Guess!"
+      /><br />
+      <button type="submit" id="submitButton" onclick="generateNumber()">
+        Submit</button
+      ><br />
+      <button id="resetButton">Reset the Game!</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+#container {
+  text-align: center;
+}
+#numberInput {
+  width: 200px;
+  box-sizing: border-box;
+  text-indent: 15px;
+  text-align: center;
+  padding: 0px;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 3px solid red;
+}
+#submitButton {
+  margin: 10px 10px;
+  padding: 5px 20px;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 14px;
+  background-color: rgb(122, 230, 0);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+#submitButton:hover {
+  background-color: rgb(96, 180, 0);
+}
+
+#submitButton:active {
+  background-color: rgb(60, 112, 0);
+}
+#resetButton {
+  margin: 10px 10px;
+  padding: 5px 20px;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 14px;
+  background-color: rgb(78, 67, 0);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+#resetButton:hover {
+  background-color: rgb(136, 104, 0);
+}
+
+#resetButton:active {
+  background-color: rgb(201, 171, 0);
+}
+#numberInput:focus {
+  outline: none;
+}
